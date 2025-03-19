@@ -26,7 +26,7 @@ public class EmployeeController {
 @Autowired
 EmployeeService es;
 	
-    //Add a new Employee
+    //Add a new Employee to db
     @PostMapping(value="/add")
     public String addEmployee(@RequestBody EmployeeModel e) {
     	
